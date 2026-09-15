@@ -42,5 +42,13 @@
     src="https://resplendent-kashata-580dae.netlify.app/"
     allow="clipboard-read; clipboard-write"
   ></iframe>
+<script>
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+      navigator.serviceWorker.register("./sw.js");
+    });
+  }
+</script>
+
 </body>
 </html>
