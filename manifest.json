@@ -1,0 +1,10 @@
+{
+  "name": "喵喵",
+  "short_name": "喵喵",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "orientation": "portrait"
+}
